@@ -1,2 +1,0 @@
-# talentsparkio
-Landing Page
