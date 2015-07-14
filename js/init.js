@@ -31,7 +31,12 @@ $(function () {
 	 */
 	
 	$("#teamCarousel").owlCarousel({
-		items: 4,
+		items : 4,
+		autoPlay: true,
+		stopOnHover: true,
+		itemsCustom : false,
+		itemsDesktop : [1199,4],
+		itemsDesktopSmall : [980,3],
 		itemsTablet: [768,3],
 		itemsTabletSmall: [690,2],
 		itemsMobile : [480,1]
